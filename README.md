@@ -36,7 +36,6 @@ The main data points analyzed are;
 - Running time
 - Genres
   
-
 Before data cleaning the dataset had 316 rows and 15 columns.On further exploration three columns were found to have missing values,i.e MPAA, Running time & opening weekend % of total.To cater for the missing values the MPAA missing points were replaced with Unknown values, while the other two had their missing values imputed by their median values.
 
 ## VISUALIZATIONS
