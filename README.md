@@ -72,7 +72,7 @@ Analysis of 2024-2025 Domestic Box Office shows Drama, Thriller, and Comedy domi
 common, suggesting blending genres boosts popularity. 
 
 ### MPAA Rating Considerations
-PG and PG 13 films generate the highest earnings (PG avg.81.57 M,PG−1381.57 M, PG-1342.59M), making them ideal for broad audiences R rated films earn less (median 4.79 M), while G and Unknown ratings perform poorly. Focusing on PG/PG 13 maximizes reach and revenue.
+PG and PG 13 films generate the highest earnings (PG avg. 81.57 M, PG-13 42.59M), making them ideal for broad audiences R rated films earn less (median 4.79 M), while G and Unknown ratings perform poorly. Focusing on PG/PG 13 maximizes reach and revenue.
 
 ### Runtime Optimization
 Optimal movie runtime for engagement and box office success is 100-130 minutes, balancing storytelling and retention. Most films run 70-200 minutes; extremely short or long runtimes are less common and risk lower performance.
