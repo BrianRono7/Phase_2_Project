@@ -1,6 +1,6 @@
 # Phase_2_Project
 
-## MOVIE STUDIO BOX OFFICE ANALYSIS
+## MOVIE STUDIO BOX OFFICE ANALYSIS.
 
 ## OVERVIEW
 
@@ -42,22 +42,22 @@ Before data cleaning the dataset had 316 rows and 15 columns.On further explorat
 
 1. Genre Distribution Analysis - The number of movies associated with the different genres.
 
-![alt text](image.png)
+![Description](assets/image.png)
 
 
 2. Genre Perfomance Analysis - The average gross return per genre
 
-![alt text](image-1.png)
+![Description](assets/image-1.png)
 
 
 3. Runtime Distribution
 
-![alt text](image-2.png)
+![Description](assets/image-2.png)
 
 
 4. MPAA Rating Impact
 
-![alt text](image-3.png)
+![Description](assets/image-3.png)
 
 
 ## CONCLUSION
@@ -67,11 +67,10 @@ This analysis leads to the following insights and recommendations;
 
 ### Genre Strategy
 
-Analysis of 2024-2025 Domestic Box Office shows Drama, Thriller, and Comedy dominate in movie count, while Musical, Family, and Sci Fi lead in Median Total Gross. Action Thriller hybrids are
-common, suggesting blending genres boosts popularity. 
+Analysis of 2024-2025 Domestic Box Office shows Drama, Thriller, and Comedy dominate in movie count while Musical, Family, and Sci Fi lead in Median Total Gross. Action Thriller hybrids are common, suggesting blending genres boosts popularity. 
 
 ### MPAA Rating Considerations
-PG and PG 13 films generate the highest earnings (PG avg. 81.57 M, PG-13 42.59M), making them ideal for broad audiences R rated films earn less (median 4.79 M), while G and Unknown ratings perform poorly. Focusing on PG/PG 13 maximizes reach and revenue.
+PG and PG 13 films generate the highest earnings (PG avg. 81.57 M, PG-13 42.59M), making them ideal for broad audiences. R rated films earn less (median 4.79 M), while G and Unknown ratings perform poorly. Focusing on PG/PG 13 maximizes reach and revenue.
 
 ### Runtime Optimization
 Optimal movie runtime for engagement and box office success is 100-130 minutes, balancing storytelling and retention. Most films run 70-200 minutes; extremely short or long runtimes are less common and risk lower performance.
