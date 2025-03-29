@@ -11,10 +11,12 @@ This project entails a series of data cleaning, imputation, analysis, and visual
 
 The goal is to join the movie business through creation of films.The project therefore entails an analysis of the current films that are doing well at the box office with an aim of assisting the head of the company's new movie studio decide the type of films to create.
 
-### KEY BUSINESS QUESTIONS
+### Key business questions
 
-1 Which are the most frequently watched genres?
+1 Which are the most frequently watched films?
+
 2 Which films have the highest gross returns?
+
 3 What factors have an impact on the frequency of film watching and the gross returns?
 
 ## DATA UNDERSTANDING AND ANALYSIS
@@ -33,10 +35,9 @@ The main data points analyzed are;
 - MPAA
 - Running time
 - Genres
-- In release
+  
 
-
-Before data cleaning the dataset had 316 rows and 15 columns.On further exploration three columns were found to have missing values,i.e MPAA, Running time & opening weekend % of total.To cater for the missing values the MPAA missing points were replaced with Unknown values, while the other two were had their missing values imputed by the median.
+Before data cleaning the dataset had 316 rows and 15 columns.On further exploration three columns were found to have missing values,i.e MPAA, Running time & opening weekend % of total.To cater for the missing values the MPAA missing points were replaced with Unknown values, while the other two had their missing values imputed by their median values.
 
 ## VISUALIZATIONS
 
@@ -44,13 +45,16 @@ Before data cleaning the dataset had 316 rows and 15 columns.On further explorat
 
 ![alt text](image.png)
 
+
 2. Genre Perfomance Analysis - The average gross return per genre
 
 ![alt text](image-1.png)
 
+
 3. Runtime Distribution
 
 ![alt text](image-2.png)
+
 
 4. MPAA Rating Impact
 
@@ -64,12 +68,12 @@ This analysis leads to the following insights and recommendations;
 
 ### Genre Strategy
 
-The genre distribution analysis of Domestic Box Office rankings for 2024 and 2025 reveals that Drama, Thriller, and Comedy dominate in terms of movie count. However, when examining Median Total Gross (USD), the highest-earning genres were Musical, Family, and Sci-Fi, indicating that while some genres are more common, they do not necessarily generate the highest revenue. Additionally, an analysis of Genre Combinations highlights that Action and Thriller frequently appear together, suggesting that hybrid genres, particularly those blending action elements, remain popular. This insight can inform strategic decisions on film production and marketing to balance commercial success with audience preferences.
-
+Analysis of 2024-2025 Domestic Box Office shows Drama, Thriller, and Comedy dominate in movie count, while Musical, Family, and Sci Fi lead in Median Total Gross. Action Thriller hybrids are
+common, suggesting blending genres boosts popularity. 
 
 ### MPAA Rating Considerations
-The analysis of MPAA ratings indicates that PG and PG-13 rated movies tend to generate higher and more consistent gross earnings, making them ideal for targeting a broader audience. The data also reveals that these ratings exhibit more frequent outliers, suggesting variability in performance but also the potential for significant box office success. Specifically, PG-rated films have the highest average gross $81.57M, followed by PG-13 films $42.59M. In contrast, R-rated movies show lower earnings with a median gross of $4.79M, while G-rated and "Unknown" rated movies have the lowest financial performance. These findings highlight the strategic advantage of focusing on PG and PG-13 ratings to maximize both audience reach and box office returns.
+PG and PG 13 films generate the highest earnings (PG avg.81.57 M,PG−1381.57 M, PG-1342.59M), making them ideal for broad audiences R rated films earn less (median 4.79 M), while G and Unknown ratings perform poorly. Focusing on PG/PG 13 maximizes reach and revenue.
 
 ### Runtime Optimization
-The analysis of movie runtime suggests that the optimal duration for maximizing audience engagement and box office performance falls between 100 to 130 minutes. Films within this range are more likely to balance storytelling depth and viewer retention. Additionally, the distribution of movie runtimes indicates that the majority of films are between 70 and 200 minutes, with extreme runtimes (either too short or too long) being less common. To optimize viewership and financial success, it is advisable to avoid excessively short or long films, as they may not align with audience expectations or industry standards.
+Optimal movie runtime for engagement and box office success is 100-130 minutes, balancing storytelling and retention. Most films run 70-200 minutes; extremely short or long runtimes are less common and risk lower performance.
 
